@@ -1,0 +1,21 @@
+.secao__destaque {
+    margin-top: 8rem;
+}
+
+.secao__destaque p {
+    padding: 1rem 0;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.botao__flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+
+
+
+

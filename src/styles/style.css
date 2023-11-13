@@ -1,0 +1,75 @@
+@import url(./reset.css);
+@import url(./secao-destaque.css);
+@import url(./navbar.css);
+@import url(./secao-categorias.css);
+@import url(./footer.css);
+
+:root {
+ --background: #000000;
+ --bg-button: #ffffff;
+ --bg-button-hover: #eaeaea;
+ --text-color: #fff;
+ --bg-button-secondary: #8484847c;
+ --bg-button-secondary-hover: #848484a2;
+ --text-color-nav: #c3c3c3;
+ --text-color-footer: #c3c3c384;
+}
+
+body {
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+main,
+footer {
+    padding-left: 4rem;
+}
+
+.app__background {
+    background-image: url(../image/banner.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+}
+
+.botao__primario,
+.botao__secundario {
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    color: var(--background);
+    background: var(--bg-button);
+    font-weight: 700;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.botao__secundario {
+    color: var(--text-color);
+    background-color: var(--bg-button-secondary);
+    padding: 1.05rem 3.5rem;
+}
+
+.botao__secundario img {
+    width: 20px;
+}
+
+.botao__secundario:hover {
+    background: var(--bg-button-secondary-hover);
+}
+
+.botao__primario:hover {
+    background-color: var(--bg-button-hover);
+}
+
+button img {
+    width: 16px;
+}
+
+button span {
+    margin-left: .5rem;
+}

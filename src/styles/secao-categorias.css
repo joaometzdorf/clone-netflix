@@ -1,0 +1,40 @@
+.categorias {
+    margin-top: 10.5rem;
+}
+
+.categorias__diferentes {
+    padding-top: 3rem;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    color: var(--text-color);
+}
+
+.categorias h2,
+.categorias__diferentes h2  {
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.categorias__trilho {
+    display: grid;
+    grid-template-columns: repeat(7, 360px);
+}    
+
+.categorias__trilho img {
+    width: 341px;
+    height: 192px;
+    transition: .5s;
+}
+
+.categorias__trilho img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}

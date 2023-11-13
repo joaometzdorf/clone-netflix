@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Netflix</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body>
+    <div class="app__background">
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li>
+                        <a href="#">
+                            <img src="src/image/Netflix_Logo_RGB.png" alt="" id="logo-netflix">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">Início</a>
+                    </li>
+                    <li>
+                        <a href="#">Séries</a>
+                    </li>
+                    <li>
+                        <a href="#">Filmes</a>
+                    </li>
+                    <li>
+                        <a href="#">Bombando</a>
+                    </li>
+                    <li>
+                        <a href="#">Minha lista</a>
+                    </li>
+                </ul>
+                <ul class="navbar__perfil">
+                    <li>
+                        <img src="src/image/search.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="src/image/bell.svg" alt="">
+                    </li>
+                    <li>
+                        <img src="src/image/user.png" alt="">
+                    </li>
+                    <li>
+                        <img src="src/image/chevron-down.svg" alt="">
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="secao__destaque">
+                <img src="src/image/logo.png" alt="Nome do filme SPIDERHEAD">
+                <p>Em uma penitenciária de última geração, um detento <br> participa de um experimento com drogas que
+                    controlam as <br> emoções para um gênio da indústria farmacêutica.</p>
+                <div class="botao__flex">
+                    <button class="botao__primario">
+                        <img src="src/image/icone-play.png" alt="ícone de play">
+                        <span>Assistir</span>
+                    </button>
+                    <button class="botao__secundario">
+                        <img src="src/image/info.svg" alt="ícone de informações"> <span>Mais informações</span>
+                    </button>
+                </div>
+            </section>
+
+            <section class="categorias">
+                <h2>Minha lista</h2>
+                <div class="categorias__trilho">
+                    <img src="src/image/poster_01.svg" alt="Série Bojack Horseman">
+                    <img src="src/image/poster_02.svg" alt="Série Ozark">
+                    <img src="src/image/poster_03.svg" alt="Série A vizinha da mulher na janela">
+                    <img src="src/image/poster_04.svg" alt="Série Breaking bad">
+                    <img src="src/image/poster_05.svg" alt="Série The end of the f***ing world">
+                </div>
+            </section>
+
+            <section class="categorias__diferentes">
+                <h2>Em alta</h2>
+                <div class="categorias__trilho">
+                    <img src="src/image/poster_06.svg" alt="Série Stranger Things">
+                    <img src="src/image/poster_07.svg" alt="Série The Umbrella Academy">
+                    <img src="src/image/poster_08.svg" alt="Série Peaky Blinders">
+                    <img src="src/image/poster_09.svg" alt="Filme Arremessando Alto">
+                    <img src="src/image/poster_10.svg" alt="Filme Amor e gelato">
+                </div>
+            </section>
+
+            <section class="categorias__diferentes">
+                <h2>Séries estrangeiras</h2>
+                <div class="swiper">
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-wrapper categorias__trilho">
+                        <div class="swiper-slide"><img src="src/image/poster_11.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="src/image/poster_12.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="src/image/poster_13.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="src/image/poster_14.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="src/image/poster_15.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="src/image/poster_16.svg" alt=""></div>
+                        <div class="swiper-slide"><img src="src/image/poster_17.svg" alt=""></div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </section>
+
+            <section class="categorias__diferentes">
+                <h2>Séries excêntricas de humor ácido</h2>
+                <div class="categorias__trilho">
+                    <img src="src/image/poster_16.svg" alt="Série Fyre">
+                    <img src="src/image/poster_17.svg" alt="Série Friends from college">
+                    <img src="src/image/poster_18.svg" alt="Série Amazing interiors">
+                    <img src="src/image/poster_19.svg" alt="Série Riverdale">
+                    <img src="src/image/poster_20.svg" alt="Série Velvet Buzzsaw">
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+
+            <div class="icones-redes-sociais">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+
+            <div class="footer-links">
+
+                <div class="footer-links-style">
+                    <a href="#">Idioma e legendas</a>
+                    <a href="#">Imprensa</a>
+                    <a href="#">Privacidade</a>
+                    <a href="#">Entre em contato</a>
+                </div>
+
+                <div class="footer-links-style">
+                    <a href="#">Audiodescrição</a>
+                    <a href="#">Relações com investidores</a>
+                    <a href="#">Avisos legais</a>
+                </div>
+
+                <div class="footer-links-style">
+                    <a href="#">Centro de ajuda</a>
+                    <a href="#">Carreiras</a>
+                    <a href="#">Preferência de cookies</a>
+                </div>
+
+                <div class="footer-links-style">
+                    <a href="#">Cartão pré-pago</a>
+                    <a href="#">Termos de uso</a>
+                    <a href="#">Informações corporativas</a>
+                </div>
+
+            </div>
+
+            <button class="botao-footer">Código de serviço</button>
+
+            <p class="copyright">&copy; 1997-2023 Netflix, inc.</p>
+
+        </footer>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            speed: 1000,
+            spaceBetween: 100,
+            slidesPerView: 5,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+
+</html>
